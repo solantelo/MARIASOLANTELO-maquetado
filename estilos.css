@@ -1,0 +1,354 @@
+@charset "utf-8";
+/* CSS Document */
+
+.section container{
+	display: block;
+	padding-left: 20px;
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+  }
+
+div[class^='caja']{
+border: 4px;
+border-style: solid;
+border-color: black;
+display: inline-block;
+height: 250px;
+width: 400px;
+padding: 10px;
+}
+div[class^='caja4']{
+border: 0px;
+border-style: solid;
+border-color: black;
+display: block;
+height: 100px;
+width: 80%;
+padding: 0px;
+margin: auto;
+}
+
+/*div[class^='caja5']{
+border: 1px;
+border-style: solid;
+border-color: black;
+display: inline-flex;
+height: 427px;
+width: 320px;
+padding: 0px;
+margin: auto;
+}*/
+
+.div img{
+	display:block;
+    margin:auto;
+	width: 100px;
+}
+
+.div caja1{
+	padding-right: 20px;
+}
+
+.caja4 p{
+	background-color: #FAE24C;
+	font-family: 'Teko', sans-serif;
+	font-size:40px;
+	color: #000000;
+	font-weight: 300;
+	text-decoration: none;
+	text-align: center;
+}
+/*div[class^='producto2']{
+border: 1px;
+border-style: solid;
+border-color: black;
+display:flex;
+flex-flow: nowrap;
+height: 380px;
+width: 300px;
+padding: 10px;
+
+}*/
+
+.nav img{
+	display: block;
+    margin:0px;
+	width: 266px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.nav h1{
+	font-family: 'Tiko', sans-serif;
+	font-size: 30px;
+	color:#110F0F;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+.nav h2{
+	font-family: 'Tiko', sans-serif;
+	font-size: 15px;
+	color:#413F3F;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+nav a{ 
+	text-decoration: none;
+}
+
+nav a:hover{
+	color:#000000;
+	text-decoration: none;
+	text-shadow: 0 0 10px #101010;
+	box-shadow: 0px 0px 0px 0px;
+}
+
+
+div [class*="bloque"]{
+  min-height: 100px;
+  flex: 1 2 10%;
+}
+
+.contenedor{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.contenedor p{
+	padding-left: 10px;
+	font-family: 'Rubik', sans-serif;
+	font-size:15px;
+	color:#221F1F;
+}
+
+
+/*.contenedor :hover{ 
+	box-shadow: 0px 0px 5px 1px black;
+}*/
+
+div [class*="bloque"]:hover{
+box-shadow: 0px 0px 5px 1px black;
+}
+
+.bloque1 {
+  color: #ddd;
+  background-color: #141B23;
+  border-color:#434343;
+  order: 1;
+
+
+}
+.bloque2 {
+  color: #333;
+  background-color: #FFFFFF;
+  order: 2;
+ 
+
+}
+.bloque3 {
+  color: #333;
+  background-color: #FFFFFF;
+  order: 3;
+  flex-grow: 3
+
+}
+.bloque4 {
+  color: #333;
+  background-color: #FFFFFF;
+  order: 4;
+}
+
+.bloque5 {
+  color: #ddd;
+  background-color: #FFFFFF;
+  order: 5;
+}
+
+/* bloque 2*/
+.button {
+	text-align: center;
+	float: none;
+}
+#myDIV {
+  width: 100%;
+  padding: 30px 0;
+  text-align: center;
+  background-color: white;
+  margin-top: 10px;
+}
+
+#form {
+	display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 0px;
+    width:100px;
+    margin:auto;
+	background:#FFFFFF; 
+	position: relative;
+}
+
+#form input[type=cantidad] {
+	padding-top: 0px;
+    border:1px solid #CCCCCC;
+	border-radius: 5px;
+}
+
+#form input.btn {
+	margin-top: 5px;
+    padding:5px;
+    color:#FFFFFF;
+    background-color:#F1191C;
+    border:2px solid #CCCCCC;
+	border-radius: 5px;
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+}
+/* bloque 3*/
+.button2 {
+	text-align: center;
+	float: none;
+}
+
+#myDIV2 {
+  width: 100%;
+  padding: 30px 0;
+  text-align: center;
+  background-color: white;
+  margin-top: 10px;
+}
+
+#form2 {
+	display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 0px;
+    width:100px;
+    margin:auto;
+	background:#FFFFFF; 
+	position: relative;
+}
+
+#form2 input[type=cantidad2] {
+	padding-top: 0px;
+    border:1px solid #CCCCCC;
+	border-radius: 5px;
+}
+
+#form2 input.btn {
+	margin-top: 5px;
+    padding:5px;
+    color:#FFFFFF;
+    background-color:#F1191C;
+    border:2px solid #CCCCCC;
+	border-radius: 5px;
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+}
+
+/* bloque 4*/
+.button3 {
+	text-align: center;
+	float: none;
+}
+
+#myDIV3 {
+  width: 100%;
+  padding: 30px 0;
+  text-align: center;
+  background-color: white;
+  margin-top: 10px;
+}
+
+#form3 {
+	display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 0px;
+    width:100px;
+    margin:auto;
+	background:#FFFFFF; 
+	position: relative;
+}
+
+#form3 input[type=cantidad2] {
+	padding-top: 0px;
+    border:1px solid #CCCCCC;
+	border-radius: 5px;
+}
+
+#form3 input.btn {
+	margin-top: 5px;
+    padding:5px;
+    color:#FFFFFF;
+    background-color:#F1191C;
+    border:2px solid #CCCCCC;
+	border-radius: 5px;
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+}
+
+/* bloque 5*/
+.button4 {
+	text-align: center;
+	float: none;
+}
+
+#myDIV4 {
+  width: 100%;
+  padding: 30px 0;
+  text-align: center;
+  background-color: white;
+  margin-top: 10px;
+}
+
+#form4 {
+	display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 0px;
+    width:100px;
+    margin:auto;
+	background:#FFFFFF; 
+	position: relative;
+}
+
+#form4 input[type=cantidad2] {
+	padding-top: 0px;
+    border:1px solid #CCCCCC;
+	border-radius: 5px;
+}
+
+#form4 input.btn {
+	margin-top: 5px;
+    padding:5px;
+    color:#FFFFFF;
+    background-color:#F1191C;
+    border:2px solid #CCCCCC;
+	border-radius: 5px;
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+}
+
+
+/*button.onmouseout = function(event) {
+  /* event.target: elemento padre  */
+/*};
+/*button.onmouseover = function(event) {
+  /* event.target: elemento hijo (brota) */
+/*};
+/*div {
+width: 300 px;
+padding-left:
+50px;
+padding-right: 50px;
+margin-left: 50px;
+margin-right: 50px;
+border: 10px solid black;
+}.caja{
+	margin: 50px 20px 50px 20px;
+}
